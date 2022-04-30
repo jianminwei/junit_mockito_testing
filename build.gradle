@@ -13,10 +13,9 @@ dependencies {
     implementation 'org.junit.jupiter:junit-jupiter:5.7.0'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
-    testCompileOnly "org.mockito:mockito-inline:3.9.0"
-    testRuntimeOnly "org.mockito:mockito-inline:3.9.0"
-    testCompileOnly "org.hamcrest:hamcrest-library:2.2"
-    testRuntimeOnly "org.hamcrest:hamcrest-library:2.2"
+    implementation "org.mockito:mockito-inline:3.9.0"
+    implementation "org.hamcrest:hamcrest-library:2.2"
+    implementation "org.mortbay.jetty:jetty:7.0.0.pre5"
 }
 
 test {
