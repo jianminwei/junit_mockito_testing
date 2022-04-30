@@ -7,6 +7,6 @@ import org.mockito.MockitoAnnotations;
 public class BaseTestCase {
     @BeforeEach
     void init_mocks() {
-        MockitoAnnotations.initMocks(this);
+        MockitoAnnotations.openMocks(this);
     }
 }
