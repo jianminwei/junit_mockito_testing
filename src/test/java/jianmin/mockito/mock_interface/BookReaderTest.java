@@ -24,7 +24,9 @@ class BookReaderAnnotationWithExtensionTest {
 
     @Test
     void testGetContent() {
-        when(mockedBook.bookContent()).thenReturn("Mockito");
+        when(mockedBook.bookContent()).thenReturn("Mockito", "Another Mockito", "Third Mockito");
         assertEquals("Mockito", reader.getContent());
+        assertEquals("Another Mockito", reader.getContent());
+        assertEquals("Third Mockito", reader.getContent());
     }
 }
