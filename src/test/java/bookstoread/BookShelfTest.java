@@ -16,7 +16,7 @@ class BookShelfTest {
         System.out.println("Testing " + testInfo.getDisplayName());
     }
 
-
+    //a very simple test
     @Test
     @DisplayName("is empty when no book is added to it")
     public void shelfEmptyWhenNoBookAdded() throws Exception {
