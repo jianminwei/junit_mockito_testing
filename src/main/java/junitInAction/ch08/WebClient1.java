@@ -27,6 +27,7 @@ import java.net.URL;
 
 /**
  * A WebClient implementation that retrieves the content from a URL.
+ * added a comment line for git testing.
  */
 public class WebClient1 {
     /**
